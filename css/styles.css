@@ -9,6 +9,17 @@ hr {
     border-width: 5pt;
     width: 5%;
 }
+li{
+  color:#9145B6;
+}
+
+p {color:#9145B6;}
+
+tr {color:#6998AB;}
+
+th {
+  color:#406882;
+}
 
 h1{
   color: #406882;
