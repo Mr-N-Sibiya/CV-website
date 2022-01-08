@@ -1,0 +1,26 @@
+body {
+    background-color: #EEF2FF;
+}
+
+hr {
+    background-color: #EEF2FF;
+    border-style: dotted none none;
+    border-color: #CDDEFF;
+    border-width: 5pt;
+    width: 5%;
+}
+
+h1{
+  color: #406882;
+}
+h3{
+  color: #676FA3;
+}
+h4{
+  color: #406882;
+}
+input[type=multiple]{
+  padding: 15px;
+  border-radius:4px;
+  height:50px;
+}
