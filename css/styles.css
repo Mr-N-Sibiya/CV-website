@@ -1,37 +1,129 @@
+/* Header/Logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #D3DEDC;
+  color: white;
+  font-size: 30px;
+  height:200px;
+}
 body {
-    background-color: #EEF2FF;
+    background-color: #CCD1E4;
+    font-family: Arial;
+    margin: 0;
+    -webkit-filter: #7C99AC(100%);
+    filter: #7C99AC(100%);
+    size:100px
+    background-color: #7C99AC;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 60px;
 }
 
 hr {
-    background-color: #EEF2FF;
+    background-color: #CCD1E4;
     border-style: dotted none none;
-    border-color: #CDDEFF;
+    border-color: #064635;
     border-width: 5pt;
-    width: 5%;
+    width: 10%;
 }
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
 li{
   color:#9145B6;
 }
+ul {
+  display: table;
+  margin: 0 auto;
+  align-content: center;
+}
 
-p {color:#9145B6;}
+p {
+  color:#9145B6;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
 
-tr {color:#6998AB;}
+}
+em{
+  color:black;
+  align-content: center;
+  align-items: center;
+  padding:60px;
+}
 
-th {
-  color:#406882;
+tr {color:#FFEFEF;
+  -webkit-filter: #1A374D(100%);
+  filter: #1A374D(100%);
+  size:100px
+
+
 }
 
 h1{
   color: #406882;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+h2{
+  color:#406882;
+  text-align: center;
+  font-family: 'Courier New', monospace;
 }
 h3{
   color: #676FA3;
+  text-align: center;
+
 }
 h4{
   color: #406882;
+  text-align: center;
 }
 input[type=multiple]{
   padding: 15px;
   border-radius:4px;
   height:50px;
+}
+div.GuyImage {
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  -webkit-filter: #FFEFEF(100%);
+  filter: #1A374D(100%);
+  size:100px
+  background-color: #CDDEFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-left: 90px;
+  margin-right:50px;
+
+
+}/*
+div.GuyImage:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+*/
+div.container{
+  text-align: center;
+  /*padding: 10px 20px;*/
+  background-color: #D3DEDC;
+  height: 100px;
+
+  -webkit-filter: #grey(100%);
+  filter: #grey(100%);
+  size:100px
+  background-color: #CDDEFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*margin-bottom: 60px;*/
+
+}
+
+div.HomeText{
+
 }
